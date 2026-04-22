@@ -23,7 +23,6 @@ COPY . .
 
 # TODO(step-4d): set the runtime base image (same tag as step-4a for consistency).
 FROM node:20.11-slim
-
 WORKDIR /app
 
 # TODO(step-4e): copy the fully-installed app from the builder stage.
